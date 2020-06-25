@@ -1,0 +1,6 @@
+.programasoferecidos-container{
+    display: flex;
+    justify-content: space-between;
+    width: 388px;
+    margin: auto;
+}
