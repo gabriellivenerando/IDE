@@ -1,7 +1,11 @@
 import React from 'react';
-import GeneralTemplate from '../../Templates/GeneralTemplate/GeneralTemplate';
-import HomeContent from "../../Components/Organisms/HomeContent/HomeContent"
+import HomeContent from "../../Components/Organisms/HomeContent/HomeContent";
+import GeneralTemplate from "../../Templates/GeneralTemplate/GeneralTemplate";
+import BannerProjeto from "../../imagens/banner.svg";
 import './Home.css';
+
+
+
 
 
 
@@ -9,9 +13,14 @@ class Home extends React.Component{
     render(){
         return(
             <>
-            <GeneralTemplate/>
-            <HomeContent/>
+            <GeneralTemplate
+                banner={BannerProjeto}
+            />
+                <HomeContent/>
             </>
+            
+            
+          
         )
     }
 }

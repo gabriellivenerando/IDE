@@ -2,51 +2,167 @@ import React from 'react';
 import Section from "../../Molecules/Section/Section";
 import Titulo from "../../Molecules/Titulos/Titulo";
 import Icone from "../../Molecules/Icone/Icone";
+import Equipe from "../../Molecules/SectionEquipe/SectionEquipe";
+
+import ImagemUm from "../../../imagens/imagemum.svg";
+import ImagemDois from "../../../imagens/mapa.svg";
+import ImagemTres from "../../../imagens/parteCinco.svg"
+
+
+
+import Alimentacao from "../../../imagens/alimentacao.svg"
+import Transporte from "../../../imagens/transporte.svg"
+import Artes from "../../../imagens/artes.svg";
+import Musica from "../../../imagens/violao.svg"
+import Teatro from "../../../imagens/teatro.svg";
+import Esporte from "../../../imagens/esporte.svg";
+import EducacaoInfantil from "../../../imagens/educacaoInfantil.svg";
+import Culinaria from "../../../imagens/culinaria.svg";
+import ReforcoEscolar from "../../../imagens/reforcoEscolar.svg";
+import AulaDeIngles from "../../../imagens/aulaDeIngles.svg";
+import AssistenciaSocial from "../../../imagens/assistenciaSocial.svg";
+
+
+import Paulo from "../../../imagens/pauloEquipe.svg";
+import Debora from "../../../imagens/deboraEquipe.svg";
+import Jucileide from "../../../imagens/jucileideEquipe.svg";
+import Daniel from "../../../imagens/danielEquipe.svg";
+
 import './HomeContent.css';
 
 class HomeContent extends React.Component {
     render() {
 
         return (
-            <div>
-                <h1>Projeto Esperança</h1>
-                <h2>Lugar de transformação</h2>
-
+            <>
                 <Section
-                    texto='O Projeto Esperança, desde 2007 desenvolve um trabalho social no povado de Lustosa, Sampaio,  Bahia. O Projeto tem o objetivo de contribbuir e de promeover a ação social assim como de levar o evangelho dentro a comunidade. Buscando melhorar a qualidade de vida e trazer esperança de futuro melhor. Nossa missão é fazer com que a criança venha descobrir seus valores, habilidades e sua importância dentro da sociedade, através da educação, da cidadania e da inclusão social.  Buscamos formas cidadãos pautados nos princípios e valores cristãos, para isto trabalhamos em parcerias com os pais, a escola e a comunidade.'
+                    imagemSeccao={ImagemUm}
+                    texto="O Projeto tem o objetivo de contribuir e de promover a ação social e o amor de Deus. melhorar a qualidade de vida e trazer esperança pra um futuro melhor. Nossa missão é fazer com que as crianças e os adolescentes venham à descobrir seus valores, habilidades e sua importância dentro da sociedade, através da educação, da cidadania e da inclusão social. Buscamos formar cidadãos pautados nos princípios e valores cristãos. Para isto trabalhamos em parceria com os pais, a escola e a comunidade."
+                />
+                <Titulo
+                    nomeDaClass="parteUm"
+                    titulo="Estimulando, motivando e orientando"
                 />
 
-                <Titulo titulo='ESTIMULANDO, MOTIVANDO E ORIENTANDO'/>
-                <Section/>
-                <Titulo titulo='ONDE ESTAMOS'/>
-                <Section/>
-                <Titulo titulo='PROGRAMAS OFERECIDOS'/>
-                <section className="programasoferecidos-container">
-                    <Icone 
+                <Section
+                    textoAlter="Atendemos mais de 80 crianças e adolescentes de 04 a 18 anos de idade, de segunda à sexta, em contra turnos com a escola. Oferecemos atividades extracurriculares e reforço escolar, entre outros como esporte, música, culinária, teatro, idioma e princípios cristãos através de devocionais diárias."
 
-                    subtitulo="Alimentação"
+                    texto="As refeições diárias servidas podem ser pra eles; às vezes; a única do dia. Um de nossos requisitos é que o aluno esteja matriculado na rede de ensino público. Os pais assinam um contrato onde temos normas e regras a serem cumpridas. Assim também como temos regras e normas para as crianças e adolescenetes."
+
+                />
+
+                <Titulo
+                    nomeDaClass="parteDois"
+                    titulo="Onde Estamos"
+                />
+
+                <Section
+                    imagemSeccao={ImagemDois}
+                    texto="O projeto Esperança, desde 2007 desenvolve um trabalho social em um povoado no norte da Bahia."
+                />
+
+                <Titulo
+                    nomeDaClass="parteTres"
+                    titulo="Programas Oferecidos"
+                />
+
+                <section className="programasoferecidos-container">
+
+                    <Icone
+                        imagemIcone={Alimentacao}
+                        subtitulo="Alimentação"
+                        />
+                    <Icone
+                        imagemIcone={Transporte}
+                        subtitulo="Transporte"
+                        />
+                    <Icone
+                        imagemIcone={Artes}
+                        subtitulo="Artes"
+                        />
+                    <Icone
+                        imagemIcone={Musica}
+                        subtitulo="Música"
+                        />
+                    </section>
+                    <section className="programasoferecidos-container">
+                    <Icone
+                        imagemIcone={Teatro}
+                        subtitulo="Teatro"
+                        />
+
+                    <Icone
+                        imagemIcone={Esporte}
+                        subtitulo="Esporte"
+                        />
+
+                    <Icone
+                        imagemIcone={EducacaoInfantil}
+                        subtitulo="Educação Infantil"
+                        />
+
+                    <Icone
+                        imagemIcone={Culinaria}
+                        subtitulo="Culinária"
+                        />
+
+
+                    </section>
+                    <section className="programasoferecidos-container">
+                    <Icone
+                        imagemIcone={ReforcoEscolar}
+                        subtitulo="ReforcoEscolar"
+                        />
+
+                    <Icone
+                        imagemIcone={AulaDeIngles}
+                        subtitulo="Aula de Inglês"
+                        />
+
+                    <Icone
+                        imagemIcone={AssistenciaSocial}
+                        subtitulo="Assistência Social"
+                        />
+                    </section>
+
+                    <Titulo
+                    nomeDaClass="parteQuatro"
+                    titulo="Como Ajudar?"
                     />
-                    <Icone subtitulo="Transporte"/>
-                    <Icone subtitulo="Artes"/>
-                    <Icone subtitulo="Música"/>
-                </section>
 
-                <section className="programasoferecidos-container">
-                    <Icone subtitulo="Teatro"/>
-                    <Icone subtitulo="Esporte"/>
-                    <Icone subtitulo="Educação Infantil"/>
-                    <Icone subtitulo="Culinária"/>
-                </section>
+                    <Section
+                        imagemSeccao={ImagemTres}
+                    />
 
-                <section className="programasoferecidos-container">
-                    <Icone subtitulo="Reforço escolar"/>
-                    <Icone subtitulo="Aula de inglês"/>
-                    <Icone subtitulo="Assistêncoa social"/>
-                </section>
+                    <Titulo
+                    nomeDaClass="parteCinco"
+                    titulo="Equipe"
+                    />
 
-                <Titulo titulo='COMO AJUDAR?'/>
-                <Titulo titulo='EQUIPE'/>
-            </div>
+                    <section className="equipe-container">
+                        <Equipe
+                        imagemEquipe={Paulo}
+                        nomeEquipe="Paulo"
+                        />
+
+                        <Equipe
+                        imagemEquipe={Debora}
+                        nomeEquipe="Debora"
+                        />
+                    </section>
+
+                    <section className="equipe-container">
+                        <Equipe
+                        imagemEquipe={Jucileide}
+                        nomeEquipe="Jucileide Teles"
+                        />
+
+                        <Equipe
+                        imagemEquipe={Daniel}
+                        nomeEquipe="Daniel Teles"
+                        />
+                    </section>
+            </>
         )
     }
 

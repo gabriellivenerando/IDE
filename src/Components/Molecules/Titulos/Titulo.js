@@ -3,10 +3,10 @@ import './Titulo.css';
 
 
 
-const Titulo = ({titulo}) =>{
+const Titulo = (props) =>{
     return (
-        <section className="titulo1">
-            <h2>{titulo}</h2>
+        <section className={props.nomeDaClass} >
+            <h2 className="titulo1">{props.titulo}</h2>
         </section>
     )
 }

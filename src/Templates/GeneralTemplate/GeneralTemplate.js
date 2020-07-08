@@ -1,25 +1,42 @@
-import React from 'react';
-import { ReactComponent as Logo } from "../../Imagens/logo.svg";
-import './GeneralTemplate.css';
+import React, {Component} from "react";
+
+import "./GeneralTemplate.css";
 
 
-class GeneralTemplate extends React.Component{
+
+
+class GeneralTemplate extends Component{
     render(){
         return(
             <>
-            <nav className="navbar">
+            <nav className="menu-container">
                 <div>
-                    <Logo/>
-                </div>
-                <ul>
                     
+                </div>
+
+                <ul>
+                    <li>
+                        Home
+                    </li>
+                    <li>
+                        IDE
+                    </li>
+                    <li>
+                        Projeto Esperança
+                    </li>
                 </ul>
             </nav>
-          
+
+            <header>
+                <img src={this.props.banner}/>
+            </header>
+
             </>
+            
+        
+            
         )
     }
 }
-
 
 export default GeneralTemplate;

@@ -1,11 +1,12 @@
 import React from 'react';
+import "./Icone.css"
 
 
-const Icone = ({imagemIcone, subtitulo}) =>{
+const Icone = (props) =>{
     return(
-            <div>
-                <img src={imagemIcone}></img>
-                <p>{subtitulo}</p>
+            <div className="icone-container">
+                <img src={props.imagemIcone}></img>
+                <p>{props.subtitulo}</p>
             </div>
     )
 }

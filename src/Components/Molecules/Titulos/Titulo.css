@@ -1,5 +1,33 @@
+
+
+
 .titulo1{
     text-align: center;
+}
+
+.parteUm{
+    background-image: url("../../../imagens/titulo1.svg");
+    background-size: contain;
+    width: 598px;
+    margin: auto;
+    height: 87px;
+}
+
+.parteDois{
+    background-image: url("../../../imagens/parteDois.svg");
+    background-size: contain;
+    width: 598px;
+    margin: auto;
+    height: 87px;
+}
+
+
+.parteTres{
+    background-image: url("../../../imagens/parteTres.svg");
+    background-size: contain;
+    width: 598px;
+    margin: auto;
+    height: 87px;
 }
 
 

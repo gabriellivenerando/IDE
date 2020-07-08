@@ -2,14 +2,15 @@ import React from 'react';
 import "./Section.css";
 
 
-const Section = ({imagem, texto}) =>{
+const Section = (props) =>{
     return(
-        <section>
+        <section className="container">
+            
+                <img src={props.imagemSeccao} alt={props.legenda}/>
+                <p>{props.textoAlter}</p>
+                
             <div>
-                <imagem src={imagem}/>
-            </div>
-            <div>
-                <p>{texto}</p>
+                <p>{props.texto}</p>
             </div>
         </section>
     )

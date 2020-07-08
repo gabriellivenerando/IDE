@@ -4,3 +4,10 @@
     width: 388px;
     margin: auto;
 }
+
+.equipe-container{
+    display: flex;
+    margin: auto;
+    width: 668px;
+    justify-content: space-around;
+}
