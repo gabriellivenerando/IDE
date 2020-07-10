@@ -5,6 +5,12 @@
     margin: auto;
 }
 
+.section_subtitulo{
+    margin: 0;
+    text-align: center;
+    color: #33B575;
+}
+
 .section_texto{
     text-align: justify;
     width: 364px;
