@@ -73,7 +73,7 @@ class HomeContent extends React.Component {
                     titulo="Programas Oferecidos"
                 />
 
-                <section className="programasoferecidos-container">
+                <section className="programasoferecidos-container programasoferecidos_container-um">
 
                     <Icone
                         imagemIcone={Alimentacao}
@@ -92,7 +92,7 @@ class HomeContent extends React.Component {
                         subtitulo="Música"
                         />
                     </section>
-                    <section className="programasoferecidos-container">
+                    <section className="programasoferecidos-container programasoferecidos_container-dois">
                     <Icone
                         imagemIcone={Teatro}
                         subtitulo="Teatro"
@@ -115,7 +115,7 @@ class HomeContent extends React.Component {
 
 
                     </section>
-                    <section className="programasoferecidos-container">
+                    <section className="programasoferecidos-container programasoferecidos_container-tres">
                     <Icone
                         imagemIcone={ReforcoEscolar}
                         subtitulo="ReforcoEscolar"
