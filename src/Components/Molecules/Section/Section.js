@@ -10,7 +10,7 @@ const Section = (props) =>{
                 <p>{props.textoAlter}</p>
                 
             <div>
-                <p>{props.texto}</p>
+                <p className="section_texto">{props.texto}</p>
             </div>
         </section>
     )

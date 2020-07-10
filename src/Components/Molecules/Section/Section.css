@@ -1,5 +1,12 @@
 .container{
     display: flex;
-    width: 847px;
+    width: 788px;
+    height: 289px;
     margin: auto;
+}
+
+.section_texto{
+    text-align: justify;
+    width: 364px;
+    height: 269px;
 }

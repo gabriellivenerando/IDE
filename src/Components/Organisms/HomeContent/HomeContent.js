@@ -3,6 +3,7 @@ import Section from "../../Molecules/Section/Section";
 import Titulo from "../../Molecules/Titulos/Titulo";
 import Icone from "../../Molecules/Icone/Icone";
 import Equipe from "../../Molecules/SectionEquipe/SectionEquipe";
+import TituloPrincipal from "../../Atoms/TituloPrincipal/TituloPrincipal";
 
 import ImagemUm from "../../../imagens/imagemum.svg";
 import ImagemDois from "../../../imagens/mapa.svg";
@@ -34,7 +35,10 @@ class HomeContent extends React.Component {
     render() {
 
         return (
-            <>
+            <>  
+                <TituloPrincipal
+                    titulo = "Projeto Esperança"
+                />
                 <Section
                     imagemSeccao={ImagemUm}
                     texto="O Projeto tem o objetivo de contribuir e de promover a ação social e o amor de Deus. melhorar a qualidade de vida e trazer esperança pra um futuro melhor. Nossa missão é fazer com que as crianças e os adolescentes venham à descobrir seus valores, habilidades e sua importância dentro da sociedade, através da educação, da cidadania e da inclusão social. Buscamos formar cidadãos pautados nos princípios e valores cristãos. Para isto trabalhamos em parceria com os pais, a escola e a comunidade."
