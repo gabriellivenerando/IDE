@@ -13,11 +13,6 @@
 
 
 ### Linguagens, dependencias e libs utilizadas :books:
+:pushpin: React.js 
 
-- :pushpin: React.js
-- :pushpin: React Router Dom
-:trophy: Gerar PDF do certificado com as informações preenchidas no formulário para cada participantes para envio de e-mail 
-
-:trophy: Check-list de participantes, permitindo selecionar quem irá receber os certificados 
-
-:trophy: Permite que o organizador do evento escreva sua assinatura digital dentro da plataforma
+:pushpin: React Router Dom
