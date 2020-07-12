@@ -13,3 +13,6 @@
 
 
 ### Linguagens, dependencias e libs utilizadas :books:
+
+:pushpin: React.js
+:pushpin: React Router Dom
