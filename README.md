@@ -8,4 +8,8 @@
 <strong>Status do Projeto:</strong> Em desenvolvimento :warning:
 
 
-## Deploy da Aplicação com Netlify: :dash:
+### Deploy da Aplicação com Netlify: :dash:
+
+
+
+###Linguagens, dependencias e libs utilizadas :books:
