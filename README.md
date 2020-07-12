@@ -1,7 +1,7 @@
 
 <h1 align="center"> IDE - ASSOCIAÇÃO FILANTRÓPICA DE FRANCA  </h1>
 
-### Descrição do Projeto
+### Descrição do Projeto :open_file_folder:
 
 <p align="justify"> Projeto Voluntário para a ONG IDE através da FreeHelper, com o objetivo de divulgar a associação e o Projeto Esperanaça, e assim, captar mais patrocinadores. </p>
 
@@ -16,3 +16,4 @@
 :pushpin: React.js 
 
 :pushpin: React Router Dom
+
