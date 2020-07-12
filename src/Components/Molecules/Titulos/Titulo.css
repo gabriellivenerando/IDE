@@ -35,5 +35,21 @@
     height: 87px;
 }
 
+.parteQuatro{
+    background-image: url("../../../imagens/parteTres.svg");
+    background-size: cover;    
+    width: 763px;
+    margin: auto;
+    height: 87px;
+}
+
+
+.parteCinco{
+    background-image: url("../../../imagens/parteTres.svg");
+    background-size: cover;    
+    width: 763px;
+    margin: auto;
+    height: 87px;
+}
 
 

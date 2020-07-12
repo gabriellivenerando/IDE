@@ -1,4 +1,15 @@
 .img_equipe{
-    max-width: 300px;
+    max-width: 250px;
+    width: 100%;
    
+}
+
+.nomeEquipeLideranca{
+    text-align: center;
+    font-size: 20px;
+}
+
+.lideranca{
+    text-align: center;
+    font-weight: bolder;
 }

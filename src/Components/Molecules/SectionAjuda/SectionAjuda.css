@@ -1,0 +1,45 @@
+.ajuda-container{
+    display: flex;
+    width: 746px;
+    margin: 50px auto auto auto;
+    justify-content: space-around;
+}
+
+.paragrafo-container{
+    width: 397px;
+    margin: auto;
+}
+
+.paragrafo-container > p{
+    font-size: 18px;
+}
+
+.imagemAjuda-container{
+    display: flex;
+    width: 402px;
+    margin: 10px auto auto auto
+}
+
+.imagemAjuda-container > img{
+    max-width: 219px;
+    width: 100%;
+}
+
+.imagemAjuda-container > p{
+    width: 154px;
+}
+
+.imagemAjuda{
+    max-width: 300px;
+    width: 100%;
+}
+
+.ajuda-container > div > h2{
+    width: 467px;
+    margin: auto;
+    height: auto;
+    font-size: 22px;
+    color: #33B575;
+    padding: 10px;  
+
+}

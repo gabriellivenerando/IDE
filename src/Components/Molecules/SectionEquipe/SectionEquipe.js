@@ -9,7 +9,8 @@ const Equipe = (props) => {
                 <img className="img_equipe" src={props.imagemEquipe}/>
             </div>
             <div>
-                <p>{props.nomeEquipe}</p>
+                <p className="nomeEquipeLideranca">{props.nomeEquipe}</p>
+                <p className="lideranca">{props.nomeLideranca}</p>
             </div>
         </div>
         </>

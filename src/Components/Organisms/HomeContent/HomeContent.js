@@ -5,11 +5,11 @@ import Titulo from "../../Molecules/Titulos/Titulo";
 import Icone from "../../Molecules/Icone/Icone";
 import Equipe from "../../Molecules/SectionEquipe/SectionEquipe";
 import TituloPrincipal from "../../Atoms/TituloPrincipal/TituloPrincipal";
-
+import SectionAjuda from "../../../Components/Molecules/SectionAjuda/SectionAjuda"
 
 import ImagemUm from "../../../imagens/imagemum.svg";
 import ImagemDois from "../../../imagens/mapa.svg";
-import ImagemTres from "../../../imagens/parteCinco.svg"
+import ImagemTres from "../../../imagens/parteCinco.jpg"
 
 
 
@@ -26,10 +26,13 @@ import AulaDeIngles from "../../../imagens/aulaDeIngles.svg";
 import AssistenciaSocial from "../../../imagens/assistenciaSocial.svg";
 
 
-import Paulo from "../../../imagens/pauloEquipe.svg";
-import Debora from "../../../imagens/deboraEquipe.svg";
-import Jucileide from "../../../imagens/jucileideEquipe.svg";
-import Daniel from "../../../imagens/danielEquipe.svg";
+import BancoBrasil from "../../../imagens/bancoBrasil.svg"
+
+
+import Paulo from "../../../imagens/pauloEquipe.jpg";
+import Debora from "../../../imagens/deboraEquipe.jpg";
+import Jucileide from "../../../imagens/jucileideEquipe.jpg";
+import Daniel from "../../../imagens/danielEquipe.jpg";
 
 import './HomeContent.css';
 
@@ -133,14 +136,21 @@ class HomeContent extends React.Component {
                     </section>
 
                     <Titulo
-                    nomeDaClass="parteQuatro"
-                    titulo="Como Ajudar?"
+                        nomeDaClass="parteQuatro"
+                        titulo="Como Ajudar?"
                     />
-
-                    <Section
-                        imagemSeccao={ImagemTres}
-                    />
-
+                    <section>
+                        <SectionAjuda
+                            TituloAjuda="Qualquer valor significa significa muito para nós!"
+                            paragrafoUm="IDE ASSOCIAÇÃO FILANTRÓPICA DE FRANCA"
+                            paragrafoDois="CNPJ: 35.035.904/0001-37"
+                            imagemBanco={BancoBrasil}
+                            paragrafoTres="AGÊNCIA: 3092-9 C/C: 44.868-0"
+                            imagemCriancasAjuda={ImagemTres}
+                            
+                        
+                        />
+                    </section>
                     <Titulo
                     nomeDaClass="parteCinco"
                     titulo="Equipe"
@@ -150,11 +160,13 @@ class HomeContent extends React.Component {
                         <Equipe
                         imagemEquipe={Paulo}
                         nomeEquipe="Paulo"
+                        nomeLideranca="Liderança"
                         />
 
                         <Equipe
                         imagemEquipe={Debora}
                         nomeEquipe="Debora"
+                        nomeLideranca="Liderança"
                         />
                     </section>
 
@@ -162,11 +174,13 @@ class HomeContent extends React.Component {
                         <Equipe
                         imagemEquipe={Jucileide}
                         nomeEquipe="Jucileide Teles"
+                        nomeLideranca="Coordenação"
                         />
 
                         <Equipe
                         imagemEquipe={Daniel}
                         nomeEquipe="Daniel Teles"
+                        nomeLideranca="Coordenação"
                         />
                     </section>
             </>
