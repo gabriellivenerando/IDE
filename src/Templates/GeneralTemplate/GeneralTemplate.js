@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import Logo from "../../imagens/logo.svg";
 
 import "./GeneralTemplate.css";
 
@@ -11,7 +12,7 @@ class GeneralTemplate extends Component{
             <>
             <nav className="menu-container">
                 <div>
-                    
+                    <img src={Logo}></img>
                 </div>
 
                 <ul>
@@ -28,7 +29,6 @@ class GeneralTemplate extends Component{
             </nav>
 
             <header>
-                <img src={this.props.banner}/>
             </header>
 
             </>

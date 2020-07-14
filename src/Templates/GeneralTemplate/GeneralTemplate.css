@@ -1,17 +1,33 @@
 .menu-container{
     background-color: #FFB20D;
     display: flex;
+    justify-content: space-between;
+}
+
+nav > div{
+    width: 253px;
+}
+nav > div > img{
+    max-width: 100px;
 }
 
 nav > ul{
     list-style-type: none;
     display: flex;
-    justify-content: end;
-width: 378px;
-background: red;
+    justify-content: space-between;
+    width: 306px;
+    padding: 20px;
+
     
 }
 
 ul > li{
     justify-content: space-around ;
+}
+
+header{
+    background-image: url("../../imagens/banner.jpg");
+    height: 352px;
+    background-size: cover;
+    
 }
