@@ -1,0 +1,12 @@
+.sectionDois_container{
+    display: flex;
+    width: 788px;
+    margin: 30px auto auto auto;
+}
+
+.section_texto{
+    text-align: justify;
+    width: 338px;
+    height: 143px;
+    margin: auto;
+}

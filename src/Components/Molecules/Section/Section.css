@@ -16,3 +16,11 @@
     width: 364px;
     height: 269px;
 }
+
+
+@media screen and(max-width: 840px){
+    .section_subtitulo{
+        color:red
+    }
+
+}

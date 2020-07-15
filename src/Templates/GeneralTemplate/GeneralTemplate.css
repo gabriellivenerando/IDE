@@ -25,9 +25,3 @@ ul > li{
     justify-content: space-around ;
 }
 
-header{
-    background-image: url("../../imagens/banner.jpg");
-    height: 352px;
-    background-size: cover;
-    
-}

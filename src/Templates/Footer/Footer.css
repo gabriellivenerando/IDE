@@ -1,0 +1,11 @@
+.nav_contato > ul{
+    display: flex;
+    width: 499px;
+    margin: auto;
+}
+
+.nav_contato{
+    background-color: #FFB20D;
+    margin-top: 100px;
+    padding: 20px;
+}
