@@ -5,7 +5,8 @@ import Titulo from "../../Molecules/Titulos/Titulo";
 import Icone from "../../Molecules/Icone/Icone";
 import Equipe from "../../Molecules/SectionEquipe/SectionEquipe";
 import TituloPrincipal from "../../Atoms/TituloPrincipal/TituloPrincipal";
-import SectionAjuda from "../../../Components/Molecules/SectionAjuda/SectionAjuda"
+import SectionAjuda from "../../Molecules/SectionAjuda/SectionAjuda";
+import SectionTres from "../../Molecules/SectionTres/SectionTres";
 
 import ImagemUm from "../../../imagens/imagemum.svg";
 import ImagemDois from "../../../imagens/mapa.svg";
@@ -34,7 +35,7 @@ import Debora from "../../../imagens/deboraEquipe.jpg";
 import Jucileide from "../../../imagens/jucileideEquipe.jpg";
 import Daniel from "../../../imagens/danielEquipe.jpg";
 
-import './HomeContent.css';
+import './ProjetoEsperancaContent.css';
 
 
 
@@ -66,9 +67,10 @@ class HomeContent extends React.Component {
                     titulo="Onde Estamos"
                 />
 
-                <Section
-                    imagemSeccao={ImagemDois}
-                    texto="O projeto Esperança, desde 2007 desenvolve um trabalho social em um povoado no norte da Bahia."
+                
+                <SectionTres
+                    imagemMapa={ImagemDois}
+                    textoSectionTres="O projeto Esperança, desde 2007 desenvolve um trabalho social em um povoado no norte da Bahia."
                 />
 
                 <Titulo

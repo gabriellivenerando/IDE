@@ -1,15 +1,15 @@
 import React from "react";
-import "./SectionDois.css";
+import "./SectionTres.css";
 
 
-const SectionDois = (props) =>{
+const SectionTres = (props) =>{
     return (
-        <section className="sectionDois_container">
-            <div className="section_texto">
-                <p>{props.textoUm}</p>
+        <section className="sectionTres_container">
+            <div className="sectionTres_img">
+                <img src={props.imagemMapa}></img>
             </div>
             <div className="section_texto">
-                <p>{props.textoDois}</p>
+                <p>{props.textoSectionTres}</p>
             </div>
         </section>
     )
@@ -18,4 +18,4 @@ const SectionDois = (props) =>{
 
 }
 
-export default SectionDois;
+export default SectionTres;

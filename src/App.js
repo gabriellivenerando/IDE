@@ -1,11 +1,11 @@
 import React from 'react';
-import Home from './Paginas/Home/Home';
+import ProjetoEsperanca from "./Paginas/ProjetoEsperanca/ProjetoEsperanca"
 
 
 
 function App() {
   return (
-    <Home/>
+    <ProjetoEsperanca/>
   );
 }
 
