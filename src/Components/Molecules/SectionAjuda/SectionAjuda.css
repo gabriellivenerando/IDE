@@ -43,3 +43,48 @@
     padding: 10px;  
 
 }
+
+@media screen and (max-width: 800px){
+    .ajuda-container{
+        flex-direction: column;
+        width: 97%;
+        height: 466px;
+    }
+
+    .paragrafo-container{
+        width: 237px;
+        text-align: center;
+        
+    }
+
+    .imagemAjuda-container{
+        flex-direction: column;
+        width: 218px;
+        margin: 20px auto 20px auto;
+    }
+
+    .imagemAjuda-container > p{
+        margin: auto;
+        text-align: center;
+    }
+
+    .ajuda-container > div > h2{
+        width: 65%;
+    
+    }
+
+    .imagemAjuda_container-dois{
+        width: 201px;
+        margin: auto;
+        
+    }
+
+  
+
+    .imagemAjuda{
+        max-width: 260px;
+
+    }
+
+
+}

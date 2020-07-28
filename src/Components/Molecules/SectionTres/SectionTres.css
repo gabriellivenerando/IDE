@@ -1,5 +1,30 @@
 .sectionTres_container{
     display: flex;
-    margin: 50px auto auto auto;
+    margin: 50px auto 50px auto;
     width: 687px;
 }
+
+.sectionTres_container > .sectionTres_img{
+    width: 186px;
+    margin: auto;
+}
+
+.sectionTres_container > .sectionTres_img > img{
+    max-width: 172px;
+}
+
+.sectionTres_container > .section_texto > p{
+    margin-top: 38px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .sectionTres_container{
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+ 
+
+ }

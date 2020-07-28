@@ -15,5 +15,9 @@
     .SectionIDE_container {
       flex-direction: column;
       width: 95%;
+      height: 335px;
+      margin: auto;
     }
+
+   
 }

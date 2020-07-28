@@ -16,3 +16,22 @@
 .ImagemTres_container{
     width: 253px;
 }
+
+
+@media screen and (max-width: 800px) {
+
+    .Imagens_cotainer{
+        width: 67%;
+
+    }
+    .Imagens_cotainer > div{
+        flex-direction: column;
+        margin: 20px auto;
+    }
+
+    .ImagemParceiros_container{
+        width: 251px;
+        margin: auto auto 50px auto;
+    }
+
+}

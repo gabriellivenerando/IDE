@@ -10,3 +10,13 @@
     height: 143px;
     margin: auto;
 }
+
+@media screen and (max-width: 800px) {
+    .sectionDois_container{
+        flex-direction: column;
+        width: 92%;
+        /* height: 658px; */
+    }
+ 
+
+ }

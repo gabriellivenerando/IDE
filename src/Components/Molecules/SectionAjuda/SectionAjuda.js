@@ -17,7 +17,7 @@ const SectionAjuda = (props) => {
                 </div>
                     <h2>{props.TituloAjuda}</h2>
             </div>
-            <div>
+            <div className="imagemAjuda_container-dois">
                 <img className="imagemAjuda" src={props.imagemCriancasAjuda}></img>
             </div>
         </div>

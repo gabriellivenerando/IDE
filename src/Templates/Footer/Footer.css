@@ -9,3 +9,20 @@
     margin-top: 100px;
     padding: 20px;
 }
+
+
+@media screen and (max-width: 800px) {
+    .nav_contato{
+        margin-top: 10px;
+    }
+
+    .nav_contato > ul{
+        flex-direction: column;
+        width: 186px;
+    }
+
+    /* .nav_contato > ul > li{
+        padding: 9px;
+        margin: auto;
+    } */
+}

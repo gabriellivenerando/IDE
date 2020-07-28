@@ -23,3 +23,28 @@
     width: 638px;
     justify-content: space-around;
 }
+
+@media screen and (max-width: 800px) {
+    .programasoferecidos-container{
+        width: 357px;
+    }
+
+    .programasoferecidos_container-um{
+        margin: auto;
+    }
+
+    .programasoferecidos_container-tres{
+        width: 317px;
+        margin-bottom: 30px;
+    }
+
+    .equipe-container{
+        flex-direction: column;
+        width: 200px;
+        margin: auto;
+    }
+
+    .equipe-container > div{
+        margin-bottom: 40px;
+    }
+   }

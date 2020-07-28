@@ -124,7 +124,7 @@ class HomeContent extends React.Component {
                     <section className="programasoferecidos-container programasoferecidos_container-tres">
                     <Icone
                         imagemIcone={ReforcoEscolar}
-                        subtitulo="ReforcoEscolar"
+                        subtitulo="Reforço Escolar"
                         />
 
                     <Icone
@@ -138,10 +138,14 @@ class HomeContent extends React.Component {
                         />
                     </section>
 
+                    
+
                     <Titulo
                         nomeDaClass="parteQuatro"
                         titulo="Como Ajudar?"
                     />
+
+
                     <section>
                         <SectionAjuda
                             TituloAjuda="Qualquer valor significa significa muito para nós!"

@@ -6,3 +6,18 @@
 .icone_subtitulo{
     text-align: center;
 }
+
+@media screen and (max-width: 800px) {
+
+    .programasoferecidos_container-um{
+        margin: auto;
+    }
+    .icone-container{
+        width: 22%;
+    }
+
+    .icone_img {
+        max-width: 43px;
+        margin-left: 17px;
+   }
+}

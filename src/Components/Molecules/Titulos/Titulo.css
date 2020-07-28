@@ -3,7 +3,7 @@
 
 .titulo1{
     padding: 27px;
-    margin: 75px;
+    margin: auto;
     text-transform: uppercase;
     font-size: 20px;
     text-align: center;
@@ -56,5 +56,6 @@
 @media screen and (max-width: 800px) {
     .parteUm,  .parteDois, .parteTres, .parteQuatro, .parteCinco {
       width: 95%;
+      margin-bottom: 50px;
     }
 }
