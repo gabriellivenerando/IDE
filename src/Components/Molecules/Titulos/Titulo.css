@@ -53,3 +53,8 @@
 }
 
 
+@media screen and (max-width: 800px) {
+    .parteUm,  .parteDois, .parteTres, .parteQuatro, .parteCinco {
+      width: 95%;
+    }
+}

@@ -1,0 +1,18 @@
+.IDEImagem_container{
+    margin: auto;
+    width: 515px
+}
+
+.IDE_Imagem{
+    max-width: 500px;
+}
+
+@media screen and (max-width: 800px) {
+    .IDEImagem_container{
+        width: 80%;
+    }
+
+    .IDE_Imagem{
+        width: 100%;
+    }
+}

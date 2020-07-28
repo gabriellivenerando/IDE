@@ -45,6 +45,7 @@ class HomeContent extends React.Component {
         return (
             <>  
                 <TituloPrincipal
+                    TituloPrincipal="Segundo_titulo"
                     titulo = "Projeto Esperança"
                 />
                 <Section

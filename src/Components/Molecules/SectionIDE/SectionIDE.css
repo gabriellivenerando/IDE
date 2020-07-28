@@ -1,0 +1,19 @@
+.SectionIDE_container{
+    display: flex;
+    width: 744px;
+    margin: 30px auto 30px auto;
+}
+
+.SectionIDE_container > .section_texto > h2{
+    text-align: center;
+    margin-bottom: 14px;
+    color: #FFB20D;
+}
+
+
+@media screen and (max-width: 800px) {
+    .SectionIDE_container {
+      flex-direction: column;
+      width: 95%;
+    }
+}

@@ -1,0 +1,14 @@
+.paragrafo_container{
+    width: 522px;
+    margin: 20px auto;
+}
+
+
+@media screen and (max-width: 800px) {
+    .paragrafo_container{
+        width: 86%;
+        text-align: justify;
+    }
+}
+
+

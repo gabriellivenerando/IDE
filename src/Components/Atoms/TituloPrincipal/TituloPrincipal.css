@@ -1,6 +1,20 @@
 .Primeiro_titulo{
     text-align: center;
     text-transform: uppercase;
+    color: #33B575;
+    margin-top: 60px;
+}
+.Segundo_titulo{
+    text-align: center;
+    text-transform: uppercase;
     color: #FFB20D;
     margin-top: 60px;
 }
+
+@media screen and (max-width: 800px) {
+    .Primeiro_titulo, .Segundo_titulo{
+        width: 55%;
+        margin: auto;
+    }
+}
+

@@ -1,11 +1,14 @@
 import React from 'react';
-import ProjetoEsperanca from "./Paginas/ProjetoEsperanca/ProjetoEsperanca"
+import Routes from "./Routes/Routes"
+
 
 
 
 function App() {
   return (
-    <ProjetoEsperanca/>
+    
+        <Routes/>
+   
   );
 }
 

@@ -4,7 +4,7 @@ import "./TituloPrincipal.css";
 
 const TituloPrincipal = (props) =>{
     return(
-        <h1 className="Primeiro_titulo">{props.titulo}</h1>
+        <h1 className={props.TituloPrincipal}>{props.titulo}</h1>
     )
 }
 

@@ -1,0 +1,19 @@
+.button_container{
+    margin: 50px auto;
+    width: 252px;
+    
+}
+
+.IDE_Button{
+    width: 252px;
+    padding: 13px;
+    border-radius: 20px;
+    background-color: #FFE733;
+    text-transform: uppercase;
+    color: #FFB20D;
+    text-shadow: 2px 1px #605F5F;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    
+}

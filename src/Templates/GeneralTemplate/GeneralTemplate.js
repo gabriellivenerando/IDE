@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import Logo from "../../imagens/logo.svg";
+import {Link} from "react-router-dom";
 
 import "./GeneralTemplate.css";
 
@@ -12,19 +13,30 @@ class GeneralTemplate extends Component{
             <>
             <nav className="menu-container">
                 <div>
-                    <img src={Logo}></img>
+                <Link to="/">
+                    <img className="logoIDETemplate" src={Logo}></img>
+                </Link>
                 </div>
+                
 
                 <ul>
-                    <li>
-                        Home
-                    </li>
-                    <li>
-                        IDE
-                    </li>
-                    <li>
+                    <Link to="/">
+                        <li>
+                            Home
+                         </li>
+                    </Link>
+                    
+                    <Link to="/">
+                        <li>
+                            IDE
+                        </li>
+                    </Link>
+
+                    <Link to="/projetoesperanca">
+                        <li>
                         Projeto Esperança
-                    </li>
+                        </li>
+                    </Link>
                 </ul>
             </nav>
 
