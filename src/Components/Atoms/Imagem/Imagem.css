@@ -9,10 +9,12 @@
 
 @media screen and (max-width: 800px) {
     .IDEImagem_container{
-        width: 80%;
+        width: 327px;
+        max-width: 327px;
     }
 
     .IDE_Imagem{
         width: 100%;
+        max-width: 327px;
     }
 }

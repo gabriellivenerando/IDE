@@ -8,6 +8,7 @@
     text-align: center;
     margin-bottom: 14px;
     color: #FFB20D;
+    text-transform: uppercase;
 }
 
 
@@ -15,7 +16,7 @@
     .SectionIDE_container {
       flex-direction: column;
       width: 95%;
-      height: 335px;
+      height: 374px;
       margin: auto;
     }
 

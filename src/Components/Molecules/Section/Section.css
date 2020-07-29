@@ -1,10 +1,13 @@
 .container{
     display: flex;
-    width: 738px;
-    height: 289px;
-    margin: 50px auto auto auto;
+    justify-content: space-around;
+    margin: 50px auto 50px auto;
+    width: 758px;
 }
 
+.sectionUm_imagem > img{
+    max-width: 300px;
+}
 .section_subtitulo{
     margin: 0;
     text-align: center;
@@ -20,13 +23,17 @@
 
 @media screen and (max-width: 800px) {
    .container{
-       flex-direction: column;
-       width: 92%;
-       height: 658px;
+    flex-direction: column;
+    width: 340px;
+    margin: 0px auto 100px auto;
    }
 
-   .container > div >  img{
-        max-width: 300px;
+   .sectionUm_imagem{
+    margin: auto;
+   }
+
+   .section_subtitulo{
+    padding: 20px;
    }
 
 }

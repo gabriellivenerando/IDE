@@ -13,8 +13,10 @@
 
 @media screen and (max-width: 800px) {
     .Primeiro_titulo, .Segundo_titulo{
-        width: 55%;
+        padding: 20px;
+        width: 76%;
         margin: auto;
+        font-size: 25px;
     }
 }
 
