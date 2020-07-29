@@ -20,9 +20,8 @@
         flex-direction: column;
         width: 186px;
     }
-
-    /* .nav_contato > ul > li{
-        padding: 9px;
+    
+    .nav_contato > ul > li{
         margin: auto;
-    } */
+    } 
 }

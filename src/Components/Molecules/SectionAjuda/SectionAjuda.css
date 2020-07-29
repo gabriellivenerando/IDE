@@ -3,11 +3,13 @@
     width: 746px;
     margin: 50px auto auto auto;
     justify-content: space-around;
+    height: 300px;
 }
 
 .paragrafo-container{
     width: 397px;
-    margin: auto;
+    margin: 41px auto auto auto;
+   
 }
 
 .paragrafo-container > p{
