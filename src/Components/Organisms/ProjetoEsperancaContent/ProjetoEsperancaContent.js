@@ -148,7 +148,7 @@ class HomeContent extends React.Component {
 
                     <section>
                         <SectionAjuda
-                            TituloAjuda="Qualquer valor significa significa muito para nós!"
+                            TituloAjuda="Qualquer valor significa muito para nós!"
                             paragrafoUm="IDE ASSOCIAÇÃO FILANTRÓPICA DE FRANCA"
                             paragrafoDois="CNPJ: 35.035.904/0001-37"
                             imagemBanco={BancoBrasil}
