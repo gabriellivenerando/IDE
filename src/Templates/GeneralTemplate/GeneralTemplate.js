@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Logo from "../../imagens/logo.svg";
+import Logo from "../../imagens/Logo.png";
 import { Link } from "react-router-dom";
 
-import Teste from "../../imagens/bannerIDE.jpg"
+import Banner from "../../imagens/bannerIDE.jpg"
 
 import "./GeneralTemplate.css";
 
@@ -45,7 +45,7 @@ class GeneralTemplate extends Component {
                
                             
                 <header>
-                    <img src={Teste}></img>
+                    <img src={Banner}></img>
                 </header>
             </>
 

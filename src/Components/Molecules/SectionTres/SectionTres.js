@@ -8,7 +8,7 @@ const SectionTres = (props) =>{
             <div className="sectionTres_img">
                 <img src={props.imagemMapa}></img>
             </div>
-            <div className="section_texto">
+            <div className="section_textoTres">
                 <p>{props.textoSectionTres}</p>
             </div>
         </section>

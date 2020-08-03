@@ -8,7 +8,7 @@ import TituloPrincipal from "../../Atoms/TituloPrincipal/TituloPrincipal";
 import SectionAjuda from "../../Molecules/SectionAjuda/SectionAjuda";
 import SectionTres from "../../Molecules/SectionTres/SectionTres";
 
-import ImagemUm from "../../../imagens/imagemum.svg";
+import ImagemUm from "../../../imagens/imagemUm.jpg";
 import ImagemDois from "../../../imagens/mapa.svg";
 import ImagemTres from "../../../imagens/parteCinco.jpg"
 
@@ -51,7 +51,16 @@ class HomeContent extends React.Component {
                 <Section
                     imagemSeccao={ImagemUm}
                     subtitulo = "Lugar de transformação"
-                    texto="O Projeto tem o objetivo de contribuir e de promover a ação social e o amor de Deus. melhorar a qualidade de vida e trazer esperança pra um futuro melhor. Nossa missão é fazer com que as crianças e os adolescentes venham à descobrir seus valores, habilidades e sua importância dentro da sociedade, através da educação, da cidadania e da inclusão social. Buscamos formar cidadãos pautados nos princípios e valores cristãos. Para isto trabalhamos em parceria com os pais, a escola e a comunidade."
+                    texto="O Projeto tem o objetivo de contribuir e de promover a
+                    ação social e o amor de Deus, assim como melhorar a
+                    qualidade de vida e trazer esperança de um futuro melhor.
+                    Nossa missão é fazer com que as crianças e adolescentes
+                    venham a descobrir seus valores, habilidades e sua
+                    importância dentro da sociedade, através da educação, da
+                    cidadania e da inclusão social. Buscamos formar cidadãos
+                    pautados nos princípios e valores cristãos. Para isto,
+                    trabalhamos em parceria com os pais, com a escola e com
+                    a comunidade."
                 />
                 <Titulo
                     nomeDaClass="parteUm"
@@ -59,8 +68,17 @@ class HomeContent extends React.Component {
                 />
 
                 <SectionDois
-                    textoUm ="Atendemos mais de 80 crianças e adolescentes de 04 a 18 anos de idade, de segunda à sexta, em contra turnos com a escola. Oferecemos atividades extracurriculares e reforço escolar, entre outros como esporte, música, culinária, teatro, idioma e princípios cristãos através de devocionais diárias."
-                    textoDois = "As refeições diárias servidas podem ser pra eles; às vezes; a única do dia. Um de nossos requisitos é que o aluno esteja matriculado na rede de ensino público. Os pais assinam um contrato onde temos normas e regras a serem cumpridas. Assim também como temos regras e normas para as crianças e adolescenetes."
+                    textoUm ="Atendemos mais de 80 crianças e adolescentes entre 4 e 18
+                    anos de idade, de segunda à sexta, no período de
+                    contraturno da escola. Oferecemos reforço escolar e ainda
+                    atividades extracurriculares como esporte, música,
+                    culinária, teatro, idioma. Ensinamos também princípios
+                    cristãos através de devocionais cotidianas."
+                    textoDois ="Refeições são servidas todos os dias, sendo, por vezes, a única para algumas das crianças e adolescentes.Um de nossos requisitos para a inclusão no Projeto
+                    Esperança é que o aluno esteja matriculado na rede de
+                    ensino público. Sendo assim, os pais assinam um contrato
+                    onde há normas e regras a serem cumpridas tanto por eles
+                    quanto pelas crianças e adolescentes."
                 />
            
                 <Titulo
@@ -71,7 +89,9 @@ class HomeContent extends React.Component {
                 
                 <SectionTres
                     imagemMapa={ImagemDois}
-                    textoSectionTres="O projeto Esperança, desde 2007 desenvolve um trabalho social em um povoado no norte da Bahia."
+                    textoSectionTres="O Projeto Esperança desenvolve
+                    seu trabalho social em um povoado no norte da Bahia
+                    desde o ano de 2007."
                 />
 
                 <Titulo
@@ -180,13 +200,13 @@ class HomeContent extends React.Component {
                     <section className="equipe-container">
                         <Equipe
                         imagemEquipe={Jucileide}
-                        nomeEquipe="Jucileide Teles"
+                        nomeEquipe="Jucileide"
                         nomeLideranca="Coordenação"
                         />
 
                         <Equipe
                         imagemEquipe={Daniel}
-                        nomeEquipe="Daniel Teles"
+                        nomeEquipe="Daniel"
                         nomeLideranca="Coordenação"
                         />
                     </section>

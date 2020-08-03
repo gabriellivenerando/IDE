@@ -5,10 +5,10 @@ import "./SectionDois.css";
 const SectionDois = (props) =>{
     return (
         <section className="sectionDois_container">
-            <div className="section_texto">
+            <div className="section_textoDois">
                 <p>{props.textoUm}</p>
             </div>
-            <div className="section_texto">
+            <div className="section_textoDois">
                 <p>{props.textoDois}</p>
             </div>
         </section>

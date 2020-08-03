@@ -1,8 +1,8 @@
 .sectionTres_container{
     display: flex;
     margin: 50px auto 50px auto;
-    width: 687px;
-    height: 300px;
+    width: 569px;
+    height: auto;
 }
 
 .sectionTres_container > .sectionTres_img{
@@ -14,8 +14,12 @@
     max-width: 172px;
 }
 
-.sectionTres_container > .section_texto > p{
-    margin-top: 38px;
+.sectionTres_container > .section_textoTres > p{
+    margin-top: 59px;
+}
+
+.section_textoTres{
+  width: 323px;
 }
 
 
@@ -26,6 +30,16 @@
     width: 90%;
     margin: auto;
   }
- 
+
+  .section_textoTres{
+    width: 91%;
+    margin: auto;
+  }
+
+  .section_textoTres > p{
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
 
  }

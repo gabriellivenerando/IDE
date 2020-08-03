@@ -22,16 +22,33 @@ class HomeContent extends React.Component{
             />
             <SectionIDE
                 tituloUm= "Quem somos"
-                textoUm="A IDE, Associação sem fins lucrativos, nasceu na cidade de Franca, São Paulo; incentivado pelo casal Paulo e Debora Gonçalves que tem o coração para as crianças e adolescentes carentes no Brasil. O conselho administrativo formado por seis pessoas, apoia o Projeto Esperança na Bahia."
+                textoUm="A IDE é uma associação sem
+                fins lucrativos, formada por um conselho administrativo
+                composto por seis pessoas, que tem sua sede na cidade de
+                Franca/SP. Foi idealizada pelo casal Paulo e Debora
+                Gonçalves que têm o coração para as crianças e
+                adolescentes carentes do Brasil. A associação atualmente
+                presta suporte ao Projeto Esperança na Bahia."
                 tituloDois = "Missão"
-                textoDois="Atender aqueles que sofrem com a vulnerabilidade social. Apoiar e divulgar o Projeto Esperança. Incentivar pessoas e instituições a conhecer e a se envolver em projetos sociais e missionários."
+                textoDois="Atender aqueles que estão em
+                posição de vulnerabilidade social. Apoiar e divulgar o
+                Projeto Esperança. Incentivar pessoas e instituições a
+                conhecer e a se envolver em projetos sociais e
+                missionários."
             />
 
             <SectionIDE
                 tituloUm= "Visão"
-                textoUm="Fomentar o crescimento e o fortalecimento de instituições que atuam na área social, através de capacitações e treinamentos, em parceria com outras organizações nacionais e internacionais."
+                textoUm="Fomentar o crescimento e o
+                fortalecimento de instituições que atuam na área social
+                através de capacitações e treinamentos, em parceria com
+                outras organizações nacionais e internacionais."
                 tituloDois = "Valores"
-                textoDois="Fé em Deus, ensino cristão, valor da família na sociedade, igualdade sem discriminação de cor, credo ou nível social, somos criados à imagem e semelhança de Deus,Direito à proteção para todos"
+                textoDois="IDE = Integridade, Dignidade, Esperança.
+                Fé em Deus, Ensino cristão, Valor da família na
+                sociedade, Direito a proteção para todos, Igualdade sem
+                discriminação de cor, credo ou nível social, Somos criados
+                à imagem e semelhança de Deus."
             />
 
             <TituloPrincipal

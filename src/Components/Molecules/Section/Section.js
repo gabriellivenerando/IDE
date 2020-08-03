@@ -10,7 +10,7 @@ const Section = (props) =>{
             </div>
             <div>
                 <h2 className="section_subtitulo">{props.subtitulo}</h2>
-                <p className="section_texto">{props.texto}</p>
+                <p className="section_textoProjeto">{props.texto}</p>
             </div>
         </section>
     )

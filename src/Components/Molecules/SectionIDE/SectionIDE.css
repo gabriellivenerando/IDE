@@ -2,22 +2,48 @@
     display: flex;
     width: 744px;
     margin: 30px auto 30px auto;
+    justify-content: space-between;
 }
 
-.SectionIDE_container > .section_texto > h2{
+.SectionIDE_container > .section_textoIDE > h2{
     text-align: center;
     margin-bottom: 14px;
     color: #FFB20D;
     text-transform: uppercase;
 }
 
+.SectionIDE_container > .section_textoIDE > p{
+    text-align: justify;
+    width: 338px;
+
+}
+
+.section_textoIDE{
+    
+    /* width: 100%;
+    height: auto; */
+    
+} 
+
 
 @media screen and (max-width: 800px) {
     .SectionIDE_container {
       flex-direction: column;
-      width: 95%;
-      height: 374px;
+      width: 82%;
+      height: auto;
       margin: auto;
+    }
+
+    .section_textoIDE{
+        width: 100%;
+        height: auto;
+        margin-bottom: 28px;
+        
+    }
+
+    .SectionIDE_container > .section_textoIDE > p{
+        width: 100%
+    
     }
 
    

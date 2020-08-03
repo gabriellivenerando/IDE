@@ -1,22 +1,27 @@
 .sectionDois_container{
     display: flex;
-    width: 788px;
-    margin: 30px auto auto auto;
-    height: 300px;
+    width: 713px;
+    margin: 100px auto 100px auto;
+    height: auto;
+
 }
 
-.section_texto{
+.section_textoDois{
     text-align: justify;
-    width: 338px;
-    height: 143px;
+    width: 300px;
+    height: auto;
     margin: auto;
 }
 
 @media screen and (max-width: 800px) {
     .sectionDois_container{
         flex-direction: column;
-        width: 92%;
-        /* height: 658px; */
+        width: 94%;
+       
+    }
+
+    .section_textoDois{
+        width: 85%;
     }
  
 

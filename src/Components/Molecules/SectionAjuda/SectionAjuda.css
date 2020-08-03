@@ -32,12 +32,12 @@
 }
 
 .imagemAjuda{
-    max-width: 300px;
+    max-width: 182px;
     width: 100%;
 }
 
 .ajuda-container > div > h2{
-    width: 467px;
+    width: 388px;
     margin: auto;
     height: auto;
     font-size: 22px;
@@ -50,7 +50,8 @@
     .ajuda-container{
         flex-direction: column;
         width: 97%;
-        height: 466px;
+        height: auto;
+        margin-bottom: 30px;
     }
 
     .paragrafo-container{
@@ -71,7 +72,8 @@
     }
 
     .ajuda-container > div > h2{
-        width: 65%;
+        width: 74%;
+        text-align: center;
     
     }
 

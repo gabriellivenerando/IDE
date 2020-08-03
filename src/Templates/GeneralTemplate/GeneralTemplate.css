@@ -9,7 +9,9 @@ nav > div{
 }
 
 .logoIDETemplate{
-    max-width: 100px;
+    max-width: 65px;
+    width: 100%;
+    margin-left: 23px;
 }
 
 nav > ul{
@@ -24,17 +26,19 @@ nav > ul{
 
 ul > li{
     justify-content: space-around ;
+    text-transform: uppercase;
 }
 
 header > img{
     max-width: 100%;
+    width: 100%;
     margin-bottom: 83px;
 }
 
 
 @media screen and (max-width: 430px) {
     nav > ul{
-        width: 500px;
+        width: 660px;
     }
     
     }
