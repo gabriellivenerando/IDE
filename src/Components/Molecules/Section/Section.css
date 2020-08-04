@@ -5,6 +5,10 @@
     width: 683px;
 }
 
+.container > div{
+    width: 375px;
+}
+
 .sectionUm_imagem{
     width: 253px;
     margin: auto;
@@ -22,8 +26,7 @@
 
 .section_textoProjeto{
     text-align: justify;
-    width: 364px;
-    height: 269px;
+    height: auto;
 }
 
 
@@ -49,7 +52,7 @@
     margin: auto;
    }
 
-   .section_textoProjeto{
+   /* .section_textoProjeto{
        width: 100%;
-   }
+   } */
 }

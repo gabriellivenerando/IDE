@@ -51,16 +51,8 @@ class HomeContent extends React.Component {
                 <Section
                     imagemSeccao={ImagemUm}
                     subtitulo = "Lugar de transformação"
-                    texto="O Projeto tem o objetivo de contribuir e de promover a
-                    ação social e o amor de Deus, assim como melhorar a
-                    qualidade de vida e trazer esperança de um futuro melhor.
-                    Nossa missão é fazer com que as crianças e adolescentes
-                    venham a descobrir seus valores, habilidades e sua
-                    importância dentro da sociedade, através da educação, da
-                    cidadania e da inclusão social. Buscamos formar cidadãos
-                    pautados nos princípios e valores cristãos. Para isto,
-                    trabalhamos em parceria com os pais, com a escola e com
-                    a comunidade."
+                    texto="O Projeto tem o objetivo de contribuir e de promover a ação social e o amor de Deus, assim como melhorar a qualidade de vida e trazer esperança de um futuro melhor. Nossa missão é fazer com que as crianças e adolescentes venham a descobrir seus valores, habilidades e sua
+                    importância dentro da sociedade, através da educação, da cidadania e da inclusão social. Buscamos formar cidadãos pautados nos princípios e valores cristãos. Para isto, trabalhamos em parceria com os pais, com a escola e com a comunidade."
                 />
                 <Titulo
                     nomeDaClass="parteUm"
@@ -74,7 +66,7 @@ class HomeContent extends React.Component {
                     atividades extracurriculares como esporte, música,
                     culinária, teatro, idioma. Ensinamos também princípios
                     cristãos através de devocionais cotidianas."
-                    textoDois ="Refeições são servidas todos os dias, sendo, por vezes, a única para algumas das crianças e adolescentes.Um de nossos requisitos para a inclusão no Projeto
+                    textoDois ="Refeições são servidas todos os dias, sendo, por vezes, a única para algumas das crianças e adolescentes. Um de nossos requisitos para a inclusão no Projeto
                     Esperança é que o aluno esteja matriculado na rede de
                     ensino público. Sendo assim, os pais assinam um contrato
                     onde há normas e regras a serem cumpridas tanto por eles
@@ -89,9 +81,7 @@ class HomeContent extends React.Component {
                 
                 <SectionTres
                     imagemMapa={ImagemDois}
-                    textoSectionTres="O Projeto Esperança desenvolve
-                    seu trabalho social em um povoado no norte da Bahia
-                    desde o ano de 2007."
+                    textoSectionTres="O Projeto Esperança desenvolve seu trabalho social em um povoado no norte da Bahia desde o ano de 2007."
                 />
 
                 <Titulo
@@ -106,12 +96,12 @@ class HomeContent extends React.Component {
                         subtitulo="Alimentação"
                         />
                     <Icone
-                        imagemIcone={Transporte}
-                        subtitulo="Transporte"
-                        />
-                    <Icone
                         imagemIcone={Artes}
                         subtitulo="Artes"
+                        />
+                    <Icone
+                        imagemIcone={Transporte}
+                        subtitulo="Transporte"
                         />
                     <Icone
                         imagemIcone={Musica}
